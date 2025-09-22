@@ -63,7 +63,7 @@ echo "make me a hello world in main.py" | shai --trace | shai "now run it!"
 
 Instead of a single global configuration, you can create custom agent in a separate configuration.
 
-`example.config` contains an example of a custom configuration with an stdio MCP server configured.
+`.ovh.config` contains an example of a custom configuration with an stdio MCP server configured.
 
 Place this file in `~/.config/shai/agents/example.config`, you can then list the agents available with:
 
